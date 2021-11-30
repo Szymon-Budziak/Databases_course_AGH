@@ -29,7 +29,7 @@ ORDER BY Total_value, SUM(OD.Quantity)
 
 -- 4. Dla każdego zamówienia podaj jego wartość uwzględniając opłatę za przesyłkę
 SELECT O.OrderID,
-       ROUND(SUM(OD.UnitPrice * OD.Quantity * (1 - OD.Discount)) + SUM(O.Freight), 2) AS Total_value
+       ROUND(SUM(OD.UnitPrice * OD.Quantity * (1 - OD.Discount)) + O.Freight, 2) AS Total_value
 FROM Orders AS O
          INNER JOIN [Order Details] OD ON O.OrderID = OD.OrderID
 GROUP BY O.OrderID, O.Freight
