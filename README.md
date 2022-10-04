@@ -1,5 +1,5 @@
-# Databases exercises solutions
-This is the repository with solutions from Databases (Bazy danych) exercises at AGH. Here I will share all of the codes written by me and codes written during exercises. All codes are written in English but the content of the exercises are written in Polish. The language used in all of the exercises is SQL and the relational database management system is Microsoft SQL Server.
+# Databases course at AGH UST
+The repository with solutions from Databases (Bazy danych) lab classes at AGH UST. Here I will share all of the codes written by me and codes written during laboratories. All codes are written in English but the content is in Polish. The leading programming language during this course was SQL and the relational database management system is Microsoft SQL Server. The repository consists of solutions for assignments during the course.
 ## Table of contents
 Table of contents consists of specific sections in repository. Each section consists of solved exercises with content.
 1. [Lab 1](https://github.com/Szymon-Budziak/Databases_exercises_solutions/tree/main/Lab_1)
